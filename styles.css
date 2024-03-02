@@ -1,0 +1,111 @@
+/* entire page */
+
+* {
+    background-color: rgb(23, 24, 24);
+    color: white;
+    font-family: 'Poppins';
+}
+
+/* colors section */
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-family: 'Nunito Sans';
+    font-weight: 700;
+}
+
+div.Colors {
+   margin: 60px auto;
+   text-align: center;
+   max-width: 1200px;
+   border-top: solid white;
+}
+
+.Color-panel {
+    display: inline-block;
+    width: 32%;
+    margin: 20px auto;
+    text-align: center;
+    min-height: 100px;
+}
+
+/* color in the panels */
+.Color-Blue,
+.Color-Blue .incolor {
+    background-color: #0000ff;
+}
+
+.Color-DarkBlue,
+.Color-DarkBlue .incolor {
+    background-color: #00008b;
+}
+
+.Color-Red,
+.Color-Red .incolor {
+    background-color: #ff0000;
+}
+
+.Color-DarkRed,
+.Color-DarkRed .incolor {
+    background-color: #8b0000;
+}
+
+.Color-Green,
+.Color-Green .incolor {
+    background-color: #008000;
+}
+
+.Color-DarkGreen,
+.Color-DarkGreen .incolor {
+    background-color: #006400;
+}
+
+/* fonts section */
+div.Fonts {
+    text-align: center;
+    margin: 60px auto;
+    max-width: 1200px;
+    border-top: solid white;
+}
+
+.FontPanel {
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+.Fonts-Source-Code-Pro p,
+h3,
+em,
+strong {
+    font-family: 'Source Code Pro';
+}
+
+.Fonts-Nunito-Sans p,
+h3,
+em,
+strong {
+    font-family: 'Nunito Sans';
+}
+
+.Fonts-Poppins p,
+h3,
+em,
+strong {
+    font-family: 'Poppins';
+}
+
+/* text styles section */
+.text-styles {
+    text-align: center;
+    margin: 60px auto;
+    border-top: solid white;
+    max-width: 1200px;
+}
+.text-style {
+    display: inline-block;
+    margin: 10px auto;
+}
+.text-style ul {
+    list-style-type: none;
+}
